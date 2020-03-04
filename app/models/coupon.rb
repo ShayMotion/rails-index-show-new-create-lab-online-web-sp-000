@@ -1,2 +1,2 @@
-def Coupon < ActiveRecord::Migration
+class Coupon < ActiveRecord::Base
 end
