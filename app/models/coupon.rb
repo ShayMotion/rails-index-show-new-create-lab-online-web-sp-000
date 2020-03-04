@@ -1,2 +1,2 @@
-def Coupon
+def Coupon < ActiveRecord::Base
 end
