@@ -2,6 +2,7 @@ class CouponsController < ApplicationController
   
   def index
     @coupons = Coupon.all
+    render :index
 end
 
   def create
